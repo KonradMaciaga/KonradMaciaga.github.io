@@ -1,0 +1,111 @@
+
+----------------------------------------------------------------------------------------------------
+
+First Big Edit
+index.html:
+1. Added a new font. We use the Roboto Family now (i think that font is blyatyful)
+2.Added some text and photos to creators
+3.Reorganization of Flashcards and Quizes. Now we have 4 columns
+4. We are cleaver than Mr. Rządeczka and script are now after body and before html
+
+img: I make a folder img where i think we should saving photos to project
+
+app.css:
+A lot of changes most are very trivial. First we start making a page responsive, so i start using vh, vw, vmax, vmin and percentage units.
+The most useful change, we have "sticked menu" which is nice feature.
+
+Added: 2 sites Quiz.html and Flashcards.html
+
+Deleted: 4 sites BrainFields.html, BrainLobes.html, FieldsFlashcards.html and LobesFlashcards.html
+
+----------------------------------------------------------------------------------------------------
+
+Brain Flashcards v.0.11
+Added folders "Flashcards" and "QuizSite" where we now will keep the html, css and js files for the quiz and flashcards. I added jQuery file too. I think it will be useful 
+in future
+
+----------------------------------------------------------------------------------------------------
+
+Brain Flashcards v.0.12
+Only change is change a some of "class" to "id" in index.html and in app.css
+
+----------------------------------------------------------------------------------------------------
+
+Brain Flashcards v.0.20 Second Big Edit 
+
+All changes are caused by adding Bootstrap framework to the site, which significantly improves responsiveness and performance of the site, also makes it easier to create 
+some elements and style them with ready-made classes. Documentation can be found in README.txt file
+
+README.txt : Added file, in which we will find links to all needed documentation and we will find there all changes that occurred in website's code. 
+
+app.css : Removed significant part of code what allowed to introduce Bootstrap. There is still a lot of work to do to make it look nice and neat. 
+
+index.html: removed footer because we don't use it anyway, rest of the code transformed to use Bootstrap, which made the page finally responsive, added a menu which is also 
+responsive and after shrinking it becomes a hamburger menu
+
+Removed: stuff.txt
+
+----------------------------------------------------------------------------------------------------
+
+Brain Flashcards v.0.21
+
+app.css: Added some padding and resized some fonts for better readability on the page 
+
+index.html: The menu from now on is glued to the page and slides down the page with us. Additionally I've changed and added borders to pictures, and in quizes and flashcards 
+I've added temporary pictures to make work on the page easier 
+
+Added: Changed all pictures to the same size, and added an overview board to make work easier 
+
+Removed: Old photos with different sizes 
+
+----------------------------------------------------------------------------------------------------
+
+Brain Flashcards v.0.21 update 
+
+Only sort of updates in app.css and in index.html to add hover in images in quiz and flashcard. 
+
+----------------------------------------------------------------------------------------------------
+
+index: update bootstrap & format code
+
+and also add a placeholder for my picture
+
+----------------------------------------------------------------------------------------------------
+
+Brain Flashcards v.0.21 second update
+
+Only sort of updates in app.css and in index.html to solve some problems 
+
+----------------------------------------------------------------------------------------------------
+
+new-UI test
+
+misc: add .gitignore & split README.txt into CHANGELOG.txt additionally
+
+app.css: purge almost whole code as we don't need it now with bootstrap & create text-justify class
+
+creators.html: we shouldn't have our photos on main page just before cards, people will come here for flashcards and quiz, not for our faces & add my picture finally
+
+flashcards.html: adopt new UI
+
+help.html: create placeholder for help page in new UI style
+
+index.html: adopt new UI
+
+quiz.html: adopt new UI
+
+reset.css: just to be sure we work on tabula rasa
+
+scripts.js: support dynamic changes of "active" class
+
+----------------------------------------------------------------------------------------------------
+
+creators: make columns clearer
+
+----------------------------------------------------------------------------------------------------
+
+html & css: purge in-line styles
+
+----------------------------------------------------------------------------------------------------
+
+html (bootstrap): make margins larger

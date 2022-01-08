@@ -1,0 +1,10 @@
+/* html body{
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+} */
+.text-justify {
+    text-align: justify;
+  }
+.card.text-center{
+    width: 20rem;
+}
