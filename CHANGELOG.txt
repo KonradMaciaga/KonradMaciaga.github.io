@@ -1,6 +1,8 @@
 
 ----------------------------------------------------------------------------------------------------
 
+08.01.2022
+
 First Big Edit
 index.html:
 1. Added a new font. We use the Roboto Family now (i think that font is blyatyful)
@@ -20,16 +22,22 @@ Deleted: 4 sites BrainFields.html, BrainLobes.html, FieldsFlashcards.html and Lo
 
 ----------------------------------------------------------------------------------------------------
 
+08.01.2022
+
 Brain Flashcards v.0.11
 Added folders "Flashcards" and "QuizSite" where we now will keep the html, css and js files for the quiz and flashcards. I added jQuery file too. I think it will be useful 
 in future
 
 ----------------------------------------------------------------------------------------------------
 
+08.01.2022
+
 Brain Flashcards v.0.12
 Only change is change a some of "class" to "id" in index.html and in app.css
 
 ----------------------------------------------------------------------------------------------------
+
+08.01.2022
 
 Brain Flashcards v.0.20 Second Big Edit 
 
@@ -47,6 +55,8 @@ Removed: stuff.txt
 
 ----------------------------------------------------------------------------------------------------
 
+08.01.2022
+
 Brain Flashcards v.0.21
 
 app.css: Added some padding and resized some fonts for better readability on the page 
@@ -60,11 +70,15 @@ Removed: Old photos with different sizes
 
 ----------------------------------------------------------------------------------------------------
 
+08.01.2022
+
 Brain Flashcards v.0.21 update 
 
 Only sort of updates in app.css and in index.html to add hover in images in quiz and flashcard. 
 
 ----------------------------------------------------------------------------------------------------
+
+08.01.2022
 
 index: update bootstrap & format code
 
@@ -72,11 +86,15 @@ and also add a placeholder for my picture
 
 ----------------------------------------------------------------------------------------------------
 
+08.01.2022
+
 Brain Flashcards v.0.21 second update
 
 Only sort of updates in app.css and in index.html to solve some problems 
 
 ----------------------------------------------------------------------------------------------------
+
+08.01.2022
 
 new-UI test
 
@@ -98,14 +116,77 @@ reset.css: just to be sure we work on tabula rasa
 
 scripts.js: support dynamic changes of "active" class
 
-----------------------------------------------------------------------------------------------------
+new_UI -> main
 
 creators: make columns clearer
 
-----------------------------------------------------------------------------------------------------
-
 html & css: purge in-line styles
 
+html (bootstrap): make margins larger
+
 ----------------------------------------------------------------------------------------------------
 
-html (bootstrap): make margins larger
+New Brach : Fiszki
+
+Added code in flashcards.html 
+
+----------------------------------------------------------------------------------------------------
+
+12.01.2022
+
+Brain Flashcards v0.22
+
+Change images in creators from png format to webp which is lighter and faster to load
+
+----------------------------------------------------------------------------------------------------
+
+13.01.2022
+
+Brain Flashcards v0.23
+
+app:css: drop out smooth scroll-behavior
+
+borders.css: make borders responsive for bootstrap
+
+creators.html: refactor page and drop reset.css
+
+index.html: make margins larger for good now so navbar doesn't overflow on page content & drop reset.css
+
+quiz.html: make margins larger for good now so navbar doesn't overflow on page content & drop reset.css
+
+reset.css: drop it
+
+Podział na poszczególne płaty
+
+index: point to respective lobes
+
+----------------------------------------------------------------------------------------------------
+
+18.01.2022
+
+Brain Flashcards v0.24 Big Quiz Edit 
+
+Add: Flashcards folders: Frontal, Occipital, Parietal, Temporal
+     Quiz folders: Frontal Occipital, Parietal, Temporal
+     Quiz files: in every Quiz folders added html, css and js files
+
+Delete: jQuery file
+
+index.html: changed links to quizes and flashcards buttons
+
+Quiz: Added folders and files to make a quiz in every lobe. the code works, but we have to exchange the 
+questions as well as think about the number of questions and positivity of one big overall quiz
+
+----------------------------------------------------------------------------------------------------
+
+19.01.2022
+
+Brain Flashcards v0.24 update 
+
+Add:     
+     Flashcards: Folder and file to make Main Flashcards (all available flashcards for site)
+     Quiz: Folder and files to make Main Quiz (all available flaschards for site)
+
+Flashcards: add column breakpoints to make it look better for phones and tablets
+
+Navbar: Added 2 drop up menus for flashcards and quizes, make bigger and more weight font and add some padding 

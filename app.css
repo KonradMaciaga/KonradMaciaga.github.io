@@ -1,10 +1,14 @@
-/* html body{
-    font-family: 'Roboto', sans-serif;
-    scroll-behavior: smooth;
-} */
 .text-justify {
     text-align: justify;
   }
 .card.text-center{
     width: 20rem;
+}
+#navbar{
+  padding: 2vh 0;
+  font-size: larger;
+  font-weight: 500;
+}
+#navbarNavDropdown{
+  padding-top: 0 2vw;
 }

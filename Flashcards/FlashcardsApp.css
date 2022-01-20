@@ -1,0 +1,8 @@
+#navbar{
+    padding: 2vh 0;
+    font-size: larger;
+    font-weight: 500;
+  }
+#navbarNavDropdown{
+    padding: 0 2vw;
+}

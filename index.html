@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="app.css">
-    <link rel="stylesheet" href="reset.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,46 +17,73 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg fixed-bottom navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg fixed-bottom navbar-dark bg-dark" id="navbar">
         <div class="container-fluid">
             <a class="navbar-brand" href="#header">Brain Flashcards & Quiz</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#header">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="help.html">Help</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="creators.html">Creators</a>
+                    </li>
+                    <li class="nav-item dropup">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Flashcards!
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="Flashcards/MainFlashcards/MainFlashcards.html">Main Flashcards</a></li>
+                            <li><a class="dropdown-item" href="Flashcards/Frontal/Frontal.html">Frontal Flashcards</a></li>
+                            <li><a class="dropdown-item" href="Flashcards/Occipital/Occipital.html">Occipital Flashcards</a></li>
+                            <li><a class="dropdown-item" href="Flashcards/Parietal/Parietal.html">Parietal Flashcards</a></li>
+                            <li><a class="dropdown-item" href="Flashcards/Temporal/Temporal.html">Temporal Flashcards</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropup">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Quizes!
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="Quiz/MainQuiz/MainQuiz.html">Main Quiz</a></li>
+                            <li><a class="dropdown-item" href="Quiz/Frontal/FrontalQuiz.html">Frontal Quiz</a></li>
+                            <li><a class="dropdown-item" href="Quiz/Occipital/OccipitalQuiz.html">Occipital Quiz</a></li>
+                            <li><a class="dropdown-item" href="Quiz/Parietal/ParietalQuiz.html">Parietal Quiz</a></li>
+                            <li><a class="dropdown-item" href="Quiz/Temporal/TemporalQuiz.html">Temporal Quiz</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="help.html">Help</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
     <header class="container-fluid header" id="header">
         <section id="header-text">
-            <h1 class="text-center display-2">Brain Flashcards & Quiz</h1>
+            <h1 class="text-center display-2 pt-2">Brain Flashcards & Quiz</h1>
             <p class="border-bottom py-2 text-center display-6 text-lowercase">Are you ready to test your knowledge?</p>
         </section>
     </header>
 
-    <main>
-        <article class="container-fluid">
-            <h2 class="text-center">Please choose the lobe you want to work on and let's get started!</h2>
-            <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center ">
+    <main class="pb-5 pt-4">
+        <article class="container-fluid text-center">
+            <h2 class="text-center pb-5">Please choose the lobe you want to work on and let's get started!</h2>
+            <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center m-auto pt-5">
                 <div class="card text-center mx-4 my-3 mb-lg-5">
                     <div class="card-body" id="frontal_lobe">
                         <img class="img-fluid border border-2 border-light rounded-3" src="img/plansza.png" alt="">
                         <h5 class="card-title">Frontal</h5>
                         <p class="card-text">placeholder</p>
-                        <a href="Flashcards/Flashcards.html" class="btn btn-primary">Flashcards</a>
-                        <a href="Quiz/Quiz.html" class="btn btn-primary">Quiz</a>
+                        <a href="Flashcards/Frontal/Frontal.html" class="btn btn-primary">Flashcards</a>
+                        <a href="Quiz/Frontal/FrontalQuiz.html" class="btn btn-primary">Quiz</a>
                     </div>
                 </div>
                 <div class="card text-center mx-4 my-3 mb-lg-5">
@@ -65,8 +91,17 @@
                         <img class="img-fluid border border-2 border-light rounded-3" src="img/plansza.png" alt="">
                         <h5 class="card-title">Occipital</h5>
                         <p class="card-text">placeholder</p>
-                        <a href="Flashcards/Flashcards.html" class="btn btn-primary">Flashcards</a>
-                        <a href="Quiz/Quiz.html" class="btn btn-primary">Quiz</a>
+                        <a href="Flashcards/Occipital/Occipital.html" class="btn btn-primary">Flashcards</a>
+                        <a href="Quiz/Occipital/OccipitalQuiz.html" class="btn btn-primary">Quiz</a>
+                    </div>
+                </div>
+                <div class="card text-center mx-4 my-3 mb-lg-5">
+                    <div class="card-body" id="parietal_lobe">
+                        <img class="img-fluid border border-2 border-light rounded-3" src="img/plansza.png" alt="">
+                        <h5 class="card-title">All Lobes</h5>
+                        <p class="card-text">placeholder</p>
+                        <a href="Flashcards/MainFlashcards/MainFlashcards.html" class="btn btn-primary">Flashcards</a>
+                        <a href="Quiz/MainQuiz/MainQuiz.html" class="btn btn-primary">Quiz</a>
                     </div>
                 </div>
                 <div class="card text-center mx-4 my-3 mb-lg-5">
@@ -74,8 +109,8 @@
                         <img class="img-fluid border border-2 border-light rounded-3" src="img/plansza.png" alt="">
                         <h5 class="card-title">Parietal</h5>
                         <p class="card-text">placeholder</p>
-                        <a href="Flashcards/Flashcards.html" class="btn btn-primary">Flashcards</a>
-                        <a href="Quiz/Quiz.html" class="btn btn-primary">Quiz</a>
+                        <a href="Flashcards/Parietal/Parietal.html" class="btn btn-primary">Flashcards</a>
+                        <a href="Quiz/Parietal/ParietalQuiz.html" class="btn btn-primary">Quiz</a>
                     </div>
                 </div>
                 <div class="card text-center mx-4 mt-3 mb-5 mb-lg-5">
@@ -83,8 +118,8 @@
                         <img class="img-fluid border border-2 border-light rounded-3" src="img/plansza.png" alt="">
                         <h5 class="card-title">Temporal</h5>
                         <p class="card-text">placeholder</p>
-                        <a href="Flashcards/Flashcards.html" class="btn btn-primary">Flashcards</a>
-                        <a href="Quiz/Quiz.html" class="btn btn-primary">Quiz</a>
+                        <a href="Flashcards/Temporal/Temporal.html" class="btn btn-primary">Flashcards</a>
+                        <a href="Quiz/Temporal/TemporalQuiz.html" class="btn btn-primary">Quiz</a>
                     </div>
                 </div>
                 </section>
@@ -93,7 +128,6 @@
 
     </main>
 
-    <script src="jquery-3.6.0.min.js"></script>
     <script src="scripts.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
