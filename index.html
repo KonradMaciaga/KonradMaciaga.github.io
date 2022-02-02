@@ -6,13 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="app.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet" crossorigin="use-credentials">
+    <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
     <title>Brain Flashcards & Quiz - Home</title>
 </head>
 
@@ -38,28 +32,31 @@
                             Flashcards!
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="Flashcards/MainFlashcards/MainFlashcards.html">Main Flashcards</a></li>
-                            <li><a class="dropdown-item" href="Flashcards/Frontal/Frontal.html">Frontal Flashcards</a></li>
-                            <li><a class="dropdown-item" href="Flashcards/Occipital/Occipital.html">Occipital Flashcards</a></li>
-                            <li><a class="dropdown-item" href="Flashcards/Parietal/Parietal.html">Parietal Flashcards</a></li>
-                            <li><a class="dropdown-item" href="Flashcards/Temporal/Temporal.html">Temporal Flashcards</a></li>
+                            <li><a class="dropdown-item" href="Flashcards/MainFlashcards/MainFlashcards.html">Main
+                                    Flashcards</a></li>
+                            <li><a class="dropdown-item" href="Flashcards/Frontal/Frontal.html">Frontal Flashcards</a>
+                            </li>
+                            <li><a class="dropdown-item" href="Flashcards/Occipital/Occipital.html">Occipital
+                                    Flashcards</a></li>
+                            <li><a class="dropdown-item" href="Flashcards/Parietal/Parietal.html">Parietal
+                                    Flashcards</a></li>
+                            <li><a class="dropdown-item" href="Flashcards/Temporal/Temporal.html">Temporal
+                                    Flashcards</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropup">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkSecond" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Quizes!
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkSecond">
                             <li><a class="dropdown-item" href="Quiz/MainQuiz/MainQuiz.html">Main Quiz</a></li>
                             <li><a class="dropdown-item" href="Quiz/Frontal/FrontalQuiz.html">Frontal Quiz</a></li>
-                            <li><a class="dropdown-item" href="Quiz/Occipital/OccipitalQuiz.html">Occipital Quiz</a></li>
+                            <li><a class="dropdown-item" href="Quiz/Occipital/OccipitalQuiz.html">Occipital Quiz</a>
+                            </li>
                             <li><a class="dropdown-item" href="Quiz/Parietal/ParietalQuiz.html">Parietal Quiz</a></li>
                             <li><a class="dropdown-item" href="Quiz/Temporal/TemporalQuiz.html">Temporal Quiz</a></li>
                         </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="help.html">Help</a>
                     </li>
                 </ul>
             </div>
@@ -75,11 +72,12 @@
 
     <main class="pb-5 pt-4">
         <article class="container-fluid text-center">
-            <h2 class="text-center pb-5">Please choose the lobe you want to work on and let's get started!</h2>
+            <h2 class="text-center">Please choose the lobe you want to work on and let's get started!</h2>
             <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center m-auto pt-5">
                 <div class="card text-center mx-4 my-3 mb-lg-5">
                     <div class="card-body" id="frontal_lobe">
-                        <img class="img-fluid border border-2 border-light rounded-3" src="img/plansza.png" alt="">
+                        <img class="img-fluid border border-2 border-light rounded-3" src="img/frontal_lobe.webp"
+                            alt="">
                         <h5 class="card-title">Frontal</h5>
                         <p class="card-text">placeholder</p>
                         <a href="Flashcards/Frontal/Frontal.html" class="btn btn-primary">Flashcards</a>
@@ -88,7 +86,8 @@
                 </div>
                 <div class="card text-center mx-4 my-3 mb-lg-5">
                     <div class="card-body" id="occipital_lobe">
-                        <img class="img-fluid border border-2 border-light rounded-3" src="img/plansza.png" alt="">
+                        <img class="img-fluid border border-2 border-light rounded-3" src="img/occipital_lobe.webp"
+                            alt="">
                         <h5 class="card-title">Occipital</h5>
                         <p class="card-text">placeholder</p>
                         <a href="Flashcards/Occipital/Occipital.html" class="btn btn-primary">Flashcards</a>
@@ -96,8 +95,8 @@
                     </div>
                 </div>
                 <div class="card text-center mx-4 my-3 mb-lg-5">
-                    <div class="card-body" id="parietal_lobe">
-                        <img class="img-fluid border border-2 border-light rounded-3" src="img/plansza.png" alt="">
+                    <div class="card-body" id="all_lobes">
+                        <img class="img-fluid border border-2 border-light rounded-3" src="img/brain.webp" alt="">
                         <h5 class="card-title">All Lobes</h5>
                         <p class="card-text">placeholder</p>
                         <a href="Flashcards/MainFlashcards/MainFlashcards.html" class="btn btn-primary">Flashcards</a>
@@ -106,7 +105,8 @@
                 </div>
                 <div class="card text-center mx-4 my-3 mb-lg-5">
                     <div class="card-body" id="parietal_lobe">
-                        <img class="img-fluid border border-2 border-light rounded-3" src="img/plansza.png" alt="">
+                        <img class="img-fluid border border-2 border-light rounded-3" src="img/parietal_lobe.webp"
+                            alt="">
                         <h5 class="card-title">Parietal</h5>
                         <p class="card-text">placeholder</p>
                         <a href="Flashcards/Parietal/Parietal.html" class="btn btn-primary">Flashcards</a>
@@ -115,7 +115,8 @@
                 </div>
                 <div class="card text-center mx-4 mt-3 mb-5 mb-lg-5">
                     <div class="card-body" id="temporal_lobe">
-                        <img class="img-fluid border border-2 border-light rounded-3" src="img/plansza.png" alt="">
+                        <img class="img-fluid border border-2 border-light rounded-3" src="img/temporal_lobe.webp"
+                            alt="">
                         <h5 class="card-title">Temporal</h5>
                         <p class="card-text">placeholder</p>
                         <a href="Flashcards/Temporal/Temporal.html" class="btn btn-primary">Flashcards</a>
@@ -127,11 +128,7 @@
         </article>
 
     </main>
-
-    <script src="scripts.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

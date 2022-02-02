@@ -2,240 +2,103 @@
  //you can change the questions to your own taste or even add more questions..
  const questions = [
     {
-        question: "How many days makes a week ?",
-        optionA: "10 days",
-        optionB: "14 days",
-        optionC: "5 days",
-        optionD: "7 days",
+        question: "Which BA is considered as primary visual cortex V1?",
+        optionA: "A. 17 BA",
+        optionB: "B. 20 BA",
+        optionC: "C. 18 BA",
+        optionD: "D. 9 BA",
+        correctOption: "optionA"
+    },
+
+    {
+        question: "Which BA is considered secondary visual cortex V2?",
+        optionA: "A. 21 BA",
+        optionB: "B. 16 BA",
+        optionC: "C. 18 BA",
+        optionD: "D. 46 BA",
+        correctOption: "optionC"
+    },
+
+    {
+        question: "Which BA is considered associative visual cortex V3, V4, V5?",
+        optionA: "A. 39 BA",
+        optionB: "B. 17 BA",
+        optionC: "C. 18 BA",
+        optionD: "D. 19 BA",
         correctOption: "optionD"
     },
 
     {
-        question: "How many players are allowed on a soccer pitch ?",
-        optionA: "10 players",
-        optionB: "11 players",
-        optionC: "9 players",
-        optionD: "12 players ada as dasdasdasd s das das das das dad ",
+        question: "What is the lesion in 17 BA?",
+        optionA: "A. visual field defects on the opposite side",
+        optionB: "B. Broca’s aphasia",
+        optionC: "C. astereognosis",
+        optionD: "D. non of the above",
+        correctOption: "optionA"
+    },
+
+    {
+        question: "What is the function of 17BA?",
+        optionA: "A. visual attention",
+        optionB: "B. answers a) and c)",
+        optionC: "C. processing and interpreting visual information received from the eyes",
+        optionD: "D. non of the above",
         correctOption: "optionB"
     },
 
     {
-        question: "Who was the first President of USA ?",
-        optionA: "Donald Trumpsdasdas asdasdasdasd as a ",
-        optionB: "Barack Obama",
-        optionC: "Abraham Lincoln",
-        optionD: "George Washington",
+        question: "What is the function of 18BA?",
+        optionA: "A. further analysis of the received visual information",
+        optionB: "B. face association",
+        optionC: "C. processing sign language",
+        optionD: "D. all of the above",
         correctOption: "optionD"
     },
 
     {
-        question: "30 days has ______ ?",
-        optionA: "January",
-        optionB: "December",
-        optionC: "June",
-        optionD: "August ad asdas da da as das das das ",
+        question: "What is the function of 19BA?",
+        optionA: "A. processing phonological properties of written forms, visual memory",
+        optionB: "B. complex processing of visual information",
+        optionC: "C. answers a) and b)",
+        optionD: "D. non of the above",
         correctOption: "optionC"
     },
 
     {
-        question: "How manay hours can be found in a day ?",
-        optionA: "30 hours",
-        optionB: "38 hours",
-        optionC: "48 hours",
-        optionD: "24 hours dasd asdasd as das da dad ",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "Which is the longest river in the world ?",
-        optionA: "River Nile",
-        optionB: "Long River",
-        optionC: "River Niger ad asda sdas dasda das ",
-        optionD: "Lake Chad",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "_____ is the hottest Continent on Earth ?",
-        optionA: "Oceania",
-        optionB: "Antarctica  dsad as dasd a das dasd as dad ",
-        optionC: "Africa",
-        optionD: "North America",
+        question: "What is V1?",
+        optionA: "A. secondary visual",
+        optionB: "B. associative visual cortex",
+        optionC: "C. primary visual",
+        optionD: "D. non of the above",
         correctOption: "optionC"
     },
 
     {
-        question: "Which country is the largest in the world ?",
-        optionA: "Russia",
-        optionB: "Canada",
-        optionC: "Africa asdasdas das a dasdasdasd as da da",
-        optionD: "Egypt",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "Which of these numbers is an odd number ?",
-        optionA: "Ten",
-        optionB: "Twelve ad asd as dadasdad asda a",
-        optionC: "Eight",
-        optionD: "Eleven",
-        correctOption: "optionD"
-    },
-
-    {
-        question: `"You Can't see me" is a popular saying by`,
-        optionA: "Eminem",
-        optionB: "Bill Gates sd ada asd asd as das a ",
-        optionC: "Chris Brown",
-        optionD: "John Cena",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "Where is the world tallest building located ?",
-        optionA: "Africa",
-        optionB: "California das das da ",
-        optionC: "Dubai",
-        optionD: "Italy",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "The longest river in the United Kingdom is ?",
-        optionA: "River Severn",
-        optionB: "River Mersey",
-        optionC: "River Trent",
-        optionD: "River Tweed  asdas dads sa dad",
-        correctOption: "optionA"
-    },
-
-
-    {
-        question: "How many permanent teeth does a dog have ?",
-        optionA: "38 asd as as dada  sa",
-        optionB: "42",
-        optionC: "40",
-        optionD: "36",
+        question: "What is V2?",
+        optionA: "A. associative visual cortex",
+        optionB: "B. secondary visual",
+        optionC: "C. primary visual",
+        optionD: "D. non of the above",
         correctOption: "optionB"
     },
 
     {
-        question: "Which national team won the football World cup in 2018 ?",
-        optionA: "England",
-        optionB: "Brazil",
-        optionC: "Germany dasd ad adsd as das das d",
-        optionD: "France",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "Which US state was Donald Trump Born ?",
-        optionA: "New York",
-        optionB: "California das das dasd a dadasd asda",
-        optionC: "New Jersey",
-        optionD: "Los Angeles",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "How man states does Nigeria have ?",
-        optionA: "24 sad as das dasd as das da das ",
-        optionB: "30",
-        optionC: "36",
-        optionD: "37",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "____ is the capital of Nigeria ?",
-        optionA: "Abujaddas as d asd asd as dad a",
-        optionB: "Lagos",
-        optionC: "Calabar",
-        optionD: "Kano",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "Los Angeles is also known as ?",
-        optionA: "Angels City",
-        optionB: "Shining city",
-        optionC: "City of Angels as d sda dasd asd asd as da da a ",
-        optionD: "Lost Angels",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "What is the capital of Germany ?",
-        optionA: "Georgia sd ad as da asd dasd asda a d",
-        optionB: "Missouri",
-        optionC: "Oklahoma",
-        optionD: "Berlin",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "How many sides does an hexagon have ?",
-        optionA: "Six",
-        optionB: "Sevene ds asd ad ad asdas da d",
-        optionC: "Four",
-        optionD: "Five",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "How many planets are currently in the solar system ?",
-        optionA: "Eleven",
-        optionB: "Seven",
-        optionC: "Nine",
-        optionD: "Eight",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "Which Planet is the hottest ?",
-        optionA: "Jupitar  d asd  ad as as dsa a",
-        optionB: "Mercury",
-        optionC: "Earth",
-        optionD: "Venus",
+        question: "What is V3, V4, V5?",
+        optionA: "A. secondary visual",
+        optionB: "B. associative visual cortex",
+        optionC: "C. primary visual",
+        optionD: "D. non of the above",
         correctOption: "optionB"
-    },
-
-    {
-        question: "where is the smallest bone in human body located?",
-        optionA: "Toes",
-        optionB: "Ears",
-        optionC: "Fingers sa das das das as a a",
-        optionD: "Nose",
-        correctOption: "optionB"
-    },
-
-    {
-        question: "How many hearts does an Octopus have ?",
-        optionA: "One",
-        optionB: "Two",
-        optionC: "Three  dasdas dasd as das dasd as da ",
-        optionD: "Four",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "How many teeth does an adult human have ?",
-        optionA: "28",
-        optionB: "30 asd as a sdasd asda as da ",
-        optionC: "32",
-        optionD: "36",
-        correctOption: "optionC"
     }
-
 ]
 
 
 let shuffledQuestions = [] //empty array to hold shuffled selected questions out of all available questions
 
 function handleQuestions() { 
-    //function to shuffle and push 10 questions to shuffledQuestions array
-//app would be dealing with 10questions per session
-    while (shuffledQuestions.length <= 9) {
+    //function to shuffle and push 5 questions to shuffledQuestions array
+//app would be dealing with 5 questions per session
+    while (shuffledQuestions.length <= 4) {
         const random = questions[Math.floor(Math.random() * questions.length)]
         if (!shuffledQuestions.includes(random)) {
             shuffledQuestions.push(random)
@@ -317,12 +180,12 @@ function handleNextQuestion() {
     unCheckRadioButtons()
     //delays next question displaying for a second just for some effects so questions don't rush in on player
     setTimeout(() => {
-        if (indexNumber <= 9) {
-//displays next question as long as index number isn't greater than 9, remember index number starts from 0, so index 9 is question 10
+        if (indexNumber <= 4) {
+//displays next question as long as index number isn't greater than 4, remember index number starts from 0, so index 4 is question 5
             NextQuestion(indexNumber)
         }
         else {
-            handleEndGame()//ends game if index number greater than 9 meaning we're already at the 10th question
+            handleEndGame()//ends game if index number greater than 4 meaning we're already at the 5th question
         }
         resetOptionBackground()
     }, 1000);
@@ -350,19 +213,19 @@ function handleEndGame() {
     let remarkColor = null
 
     // condition check for player remark and remark color
-    if (playerScore <= 3) {
+    if (playerScore <= 1) {
         remark = "Bad Grades, Keep Practicing."
         remarkColor = "red"
     }
-    else if (playerScore >= 4 && playerScore < 7) {
+    else if (playerScore >= 2 && playerScore < 4) {
         remark = "Average Grades, You can do better."
         remarkColor = "orange"
     }
-    else if (playerScore >= 7) {
+    else if (playerScore >= 5) {
         remark = "Excellent, Keep the good work going."
         remarkColor = "green"
     }
-    const playerGrade = (playerScore / 10) * 100
+    const playerGrade = (playerScore / 5) * 100
 
     //data to display to score board
     document.getElementById('remarks').innerHTML = remark

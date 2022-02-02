@@ -1,241 +1,374 @@
 //this would be the object shape for storing the questions  
  //you can change the questions to your own taste or even add more questions..
  const questions = [
-  {
-      question: "How many days makes a week ?",
-      optionA: "10 days",
-      optionB: "14 days",
-      optionC: "5 days",
-      optionD: "7 days",
-      correctOption: "optionD"
-  },
+    {
+        question: "Lesion in which area leads to eye deviation towards the lesion?",
+        optionA: "A. 11 BA",
+        optionB: "B. 8 BA",
+        optionC: "C. 4 BA",
+        optionD: "D. 46 BA",
+        correctOption: "optionB"
+    },
+  
+    {
+        question: "Which areas are considered as Broca’a area?",
+        optionA: "A. 44&45 BA",
+        optionB: "B. 5&7 BA",
+        optionC: "C. 9&10 BA",
+        optionD: "D. non of the above",
+        correctOption: "optionA"
+    },
+  
+    {
+        question: "Which are the functions of 6BA?",
+        optionA: "A. decision making",
+        optionB: "B. working memory",
+        optionC: "C. controlling and planning movements, imaginary of movement",
+        optionD: "D. non of the above",
+        correctOption: "optionC"
+    },
+  
+    {
+        question: "Which are the functions of 9&10 BA?",
+        optionA: "A. attention, working memory, planning and task management",
+        optionB: "B. controlling and planning movements, imaginary of movement",
+        optionC: "C. speech production and articulation ",
+        optionD: "D. non of the above",
+        correctOption: "optionA"
+    },
+  
+    {
+        question: "How is called lesion in Broca’s area?",
+        optionA: "A. Broca’s aphasia",
+        optionB: "B. eye deviation towards the lesion",
+        optionC: "C. astereognosis",
+        optionD: "D. none of the above",
+        correctOption: "optionA"
+    },
+  
+    {
+        question: "What is function of Broca’s area?",
+        optionA: "A. task management",
+        optionB: "B. imaginary of movement",
+        optionC: "C. speech production and articulation",
+        optionD: "D. processing visual information",
+        correctOption: "optionC"
+    },
+  
+    {
+        question: "Where we can find primary motor cortex?",
+        optionA: "A. 46 BA",
+        optionB: "B. 4 BA",
+        optionC: "C. 6 BA",
+        optionD: "D. 8 BA",
+        correctOption: "optionB"
+    },
+  
+    {
+        question: "Which BA we can find in orbitofrontal area?",
+        optionA: "A. 4 BA",
+        optionB: "B. 46 BA",
+        optionC: "C. 11 BA",
+        optionD: "D. 6 BA",
+        correctOption: "optionC"
+    },
+  
+    {
+        question: "Where is located 4 BA?",
+        optionA: "A.precentral gyrus",
+        optionB: "B. orbitofrontal area",
+        optionC: "C. middle frontal gyri",
+        optionD: "D. non of the above",
+        correctOption: "optionA"
+    },
+  
+    {
+        question: "What is the function of 47 BA?",
+        optionA: "A. processing of language",
+        optionB: "B. imaginary of movement",
+        optionC: "C. speech production and articulation",
+        optionD: "D. processing visual information",
+        correctOption: "optionA"
+    },
 
-  {
-      question: "How many players are allowed on a soccer pitch ?",
-      optionA: "10 players",
-      optionB: "11 players",
-      optionC: "9 players",
-      optionD: "12 players ada as dasdasdasd s das das das das dad ",
-      correctOption: "optionB"
-  },
+    {
+        question: "Which BA is considered as primary visual cortex V1?",
+        optionA: "A. 17 BA",
+        optionB: "B. 20 BA",
+        optionC: "C. 18 BA",
+        optionD: "D. 9 BA",
+        correctOption: "optionA"
+    },
 
-  {
-      question: "Who was the first President of USA ?",
-      optionA: "Donald Trumpsdasdas asdasdasdasd as a ",
-      optionB: "Barack Obama",
-      optionC: "Abraham Lincoln",
-      optionD: "George Washington",
-      correctOption: "optionD"
-  },
+    {
+        question: "Which BA is considered secondary visual cortex V2?",
+        optionA: "A. 21 BA",
+        optionB: "B. 16 BA",
+        optionC: "C. 18 BA",
+        optionD: "D. 46 BA",
+        correctOption: "optionC"
+    },
 
-  {
-      question: "30 days has ______ ?",
-      optionA: "January",
-      optionB: "December",
-      optionC: "June",
-      optionD: "August ad asdas da da as das das das ",
-      correctOption: "optionC"
-  },
+    {
+        question: "Which BA is considered associative visual cortex V3, V4, V5?",
+        optionA: "A. 39 BA",
+        optionB: "B. 17 BA",
+        optionC: "C. 18 BA",
+        optionD: "D. 19 BA",
+        correctOption: "optionD"
+    },
 
-  {
-      question: "How manay hours can be found in a day ?",
-      optionA: "30 hours",
-      optionB: "38 hours",
-      optionC: "48 hours",
-      optionD: "24 hours dasd asdasd as das da dad ",
-      correctOption: "optionD"
-  },
+    {
+        question: "What is the lesion in 17 BA?",
+        optionA: "A. visual field defects on the opposite side",
+        optionB: "B. Broca’s aphasia",
+        optionC: "C. astereognosis",
+        optionD: "D. non of the above",
+        correctOption: "optionA"
+    },
 
-  {
-      question: "Which is the longest river in the world ?",
-      optionA: "River Nile",
-      optionB: "Long River",
-      optionC: "River Niger ad asda sdas dasda das ",
-      optionD: "Lake Chad",
-      correctOption: "optionA"
-  },
+    {
+        question: "What is the function of 17BA?",
+        optionA: "A. visual attention",
+        optionB: "B. answers a) and c)",
+        optionC: "C. processing and interpreting visual information received from the eyes",
+        optionD: "D. non of the above",
+        correctOption: "optionB"
+    },
 
-  {
-      question: "_____ is the hottest Continent on Earth ?",
-      optionA: "Oceania",
-      optionB: "Antarctica  dsad as dasd a das dasd as dad ",
-      optionC: "Africa",
-      optionD: "North America",
-      correctOption: "optionC"
-  },
+    {
+        question: "What is the function of 18BA?",
+        optionA: "A. further analysis of the received visual information",
+        optionB: "B. face association",
+        optionC: "C. processing sign language",
+        optionD: "D. all of the above",
+        correctOption: "optionD"
+    },
 
-  {
-      question: "Which country is the largest in the world ?",
-      optionA: "Russia",
-      optionB: "Canada",
-      optionC: "Africa asdasdas das a dasdasdasd as da da",
-      optionD: "Egypt",
-      correctOption: "optionA"
-  },
+    {
+        question: "What is the function of 19BA?",
+        optionA: "A. processing phonological properties of written forms, visual memory",
+        optionB: "B. complex processing of visual information",
+        optionC: "C. answers a) and b)",
+        optionD: "D. non of the above",
+        correctOption: "optionC"
+    },
 
-  {
-      question: "Which of these numbers is an odd number ?",
-      optionA: "Ten",
-      optionB: "Twelve ad asd as dadasdad asda a",
-      optionC: "Eight",
-      optionD: "Eleven",
-      correctOption: "optionD"
-  },
+    {
+        question: "What is V1?",
+        optionA: "A. secondary visual",
+        optionB: "B. associative visual cortex",
+        optionC: "C. primary visual",
+        optionD: "D. non of the above",
+        correctOption: "optionC"
+    },
 
-  {
-      question: `"You Can't see me" is a popular saying by`,
-      optionA: "Eminem",
-      optionB: "Bill Gates sd ada asd asd as das a ",
-      optionC: "Chris Brown",
-      optionD: "John Cena",
-      correctOption: "optionD"
-  },
+    {
+        question: "What is V2?",
+        optionA: "A. associative visual cortex",
+        optionB: "B. secondary visual",
+        optionC: "C. primary visual",
+        optionD: "D. non of the above",
+        correctOption: "optionB"
+    },
 
-  {
-      question: "Where is the world tallest building located ?",
-      optionA: "Africa",
-      optionB: "California das das da ",
-      optionC: "Dubai",
-      optionD: "Italy",
-      correctOption: "optionC"
-  },
+    {
+        question: "What is V3, V4, V5?",
+        optionA: "A. secondary visual",
+        optionB: "B. associative visual cortex",
+        optionC: "C. primary visual",
+        optionD: "D. non of the above",
+        correctOption: "optionB"
+    },
 
-  {
-      question: "The longest river in the United Kingdom is ?",
-      optionA: "River Severn",
-      optionB: "River Mersey",
-      optionC: "River Trent",
-      optionD: "River Tweed  asdas dads sa dad",
-      correctOption: "optionA"
-  },
+    {
+        question: "Which areas are considered as primary somatosensory cortex?",
+        optionA: "A. 9&10 BA",
+        optionB: "B. 43 BA",
+        optionC: "C. 3, 1&2 BA",
+        optionD: "D. non of the above",
+        correctOption: "optionC"
+    },
+  
+    {
+        question: "How is called lesion in 5&7 BA?",
+        optionA: "A. astereognosis",
+        optionB: "B. Broca’s aphasia",
+        optionC: "C. eye deviation towards the lesion",
+        optionD: "D. non of the above",
+        correctOption: "optionA"
+    },
+  
+    {
+        question: "Which areas are considered as somatosensory association cortex?",
+        optionA: "A. 5&7 BA",
+        optionB: "B. 3, 1&2 BA",
+        optionC: "C. 39 BA",
+        optionD: "D. non of the above",
+        correctOption: "optionA"
+    },
+  
+    {
+        question: "What is  the function of 3, 1&2 BA?",
+        optionA: "A. localization of touch, vibration, temperature, pain, motor learning, sensory perception",
+        optionB: "B. processing visual information",
+        optionC: "C. attention, working memory, decision-making",
+        optionD: "D. non of the above",
+        correctOption: "optionA"
+    },
+  
+    {
+        question: "What is  the function of 40 BA?",
+        optionA: "A. attention, working memory, decision-making",
+        optionB: "B. phonological processing, emotional responses",
+        optionC: "C. processing visual information",
+        optionD: "D. non of the above",
+        correctOption: "optionB"
+    },
+  
+    {
+        question: "Which areas are considered primary gustatory cortex?",
+        optionA: "A. 6 BA",
+        optionB: "B. 43 BA",
+        optionC: "C. 5&7 BA",
+        optionD: "D. non of the above",
+        correctOption: "optionB"
+    },
+  
+    {
+        question: "What is the function of 39 BA?",
+        optionA: "A. language and number processing, spatial cognition",
+        optionB: "B. memory retrieval, attention ",
+        optionC: "C. answers A) and B)",
+        optionD: "D. speech production and articulation",
+        correctOption: "optionC"
+    },
+  
+    {
+        question: "What is the function of 43 BA?",
+        optionA: "A.speech production and articulation",
+        optionB: "B.memory retrieval, attention",
+        optionC: "C.perception of taste",
+        optionD: "D.non of the above",
+        correctOption: "optionC"
+    },
+  
+    {
+        question: "What is astereognosis?",
+        optionA: "A. the inability to identify objects by feel only",
+        optionB: "B. lesion in 5&7 BA",
+        optionC: "C. eye deviation towards the lesion",
+        optionD: "D. answers A) and B)",
+        correctOption: "optionD"
+    },
 
+    {
+        question: "Where is located 39 BA?",
+        optionA: "A. postcentral gyrus",
+        optionB: "B. supramarginal gyrus",
+        optionC: "C. angular gyrus",
+        optionD: "D. non of the above",
+        correctOption: "optionC"
+    },
+ 
+    {
+        question: "Which area is considered as Wernicke’s area?",
+        optionA: "A. 19 BA",
+        optionB: "B. 20 BA",
+        optionC: "C. 21 BA",
+        optionD: "D. 22 BA",
+        correctOption: "optionD"
+    },
+  
+    {
+        question: "What are the functions of 21 BA?",
+        optionA: "A. semantic memory processing",
+        optionB: "B. visual perception",
+        optionC: "C. language processing",
+        optionD: "D. all of the above",
+        correctOption: "optionD"
+    },
+  
+    {
+        question: "Where is located 41&42BA?",
+        optionA: "A. Heschl gyrus",
+        optionB: "B. fusiform gyrus",
+        optionC: "C. middle temporal gyrus",
+        optionD: "D. non of the above",
+        correctOption: "optionA"
+    },
+  
+    {
+        question: "What is the function of 41&42 BA?",
+        optionA: "A. processing visual information",
+        optionB: "B. processing of auditory stimuli",
+        optionC: "C. working memory",
+        optionD: "D. speech production",
+        correctOption: "optionB"
+    },
+  
+    {
+        question: "What is the function of 22 BA?",
+        optionA: "A. processing sounds and comprehension of speech",
+        optionB: "B. speech fluency",
+        optionC: "C. answers a) and b)",
+        optionD: "D. non of the above",
+        correctOption: "optionC"
+    },
+  
+    {
+        question: "What is the function of 37BA?",
+        optionA: "A. higher-level visual processing ",
+        optionB: "B. associating words with visual percepts",
+        optionC: "C. face recognition",
+        optionD: "D. all of the above",
+        correctOption: "optionD"
+    },
+  
+    {
+        question: "What is the function of 37BA",
+        optionA: "A. language processes",
+        optionB: "B. executive functions",
+        optionC: "C. diverse high-level verbal functions: semantic processing, lexico-semantic ambiguity processing",
+        optionD: "D. all of the above",
+        correctOption: "optionD"
+    },
+  
+    {
+        question: "Where is located 20 BA?",
+        optionA: "A. Heschl gyrus",
+        optionB: "B. inferior temporal gyrus",
+        optionC: "C. middle temporal gyrus",
+        optionD: "D. non of the above",
+        correctOption: "optionB"
+    },
+  
+    {
+        question: "What is the function of 21 BA?",
+        optionA: "A. processing visual information in the field of vision",
+        optionB: "B. involved in memory",
+        optionC: "C. answers a) and b)",
+        optionD: "D. non of the above",
+        correctOption: "optionC"
+    },
 
-  {
-      question: "How many permanent teeth does a dog have ?",
-      optionA: "38 asd as as dada  sa",
-      optionB: "42",
-      optionC: "40",
-      optionD: "36",
-      correctOption: "optionB"
-  },
-
-  {
-      question: "Which national team won the football World cup in 2018 ?",
-      optionA: "England",
-      optionB: "Brazil",
-      optionC: "Germany dasd ad adsd as das das d",
-      optionD: "France",
-      correctOption: "optionD"
-  },
-
-  {
-      question: "Which US state was Donald Trump Born ?",
-      optionA: "New York",
-      optionB: "California das das dasd a dadasd asda",
-      optionC: "New Jersey",
-      optionD: "Los Angeles",
-      correctOption: "optionA"
-  },
-
-  {
-      question: "How man states does Nigeria have ?",
-      optionA: "24 sad as das dasd as das da das ",
-      optionB: "30",
-      optionC: "36",
-      optionD: "37",
-      correctOption: "optionC"
-  },
-
-  {
-      question: "____ is the capital of Nigeria ?",
-      optionA: "Abujaddas as d asd asd as dad a",
-      optionB: "Lagos",
-      optionC: "Calabar",
-      optionD: "Kano",
-      correctOption: "optionA"
-  },
-
-  {
-      question: "Los Angeles is also known as ?",
-      optionA: "Angels City",
-      optionB: "Shining city",
-      optionC: "City of Angels as d sda dasd asd asd as da da a ",
-      optionD: "Lost Angels",
-      correctOption: "optionC"
-  },
-
-  {
-      question: "What is the capital of Germany ?",
-      optionA: "Georgia sd ad as da asd dasd asda a d",
-      optionB: "Missouri",
-      optionC: "Oklahoma",
-      optionD: "Berlin",
-      correctOption: "optionD"
-  },
-
-  {
-      question: "How many sides does an hexagon have ?",
-      optionA: "Six",
-      optionB: "Sevene ds asd ad ad asdas da d",
-      optionC: "Four",
-      optionD: "Five",
-      correctOption: "optionA"
-  },
-
-  {
-      question: "How many planets are currently in the solar system ?",
-      optionA: "Eleven",
-      optionB: "Seven",
-      optionC: "Nine",
-      optionD: "Eight",
-      correctOption: "optionD"
-  },
-
-  {
-      question: "Which Planet is the hottest ?",
-      optionA: "Jupitar  d asd  ad as as dsa a",
-      optionB: "Mercury",
-      optionC: "Earth",
-      optionD: "Venus",
-      correctOption: "optionB"
-  },
-
-  {
-      question: "where is the smallest bone in human body located?",
-      optionA: "Toes",
-      optionB: "Ears",
-      optionC: "Fingers sa das das das as a a",
-      optionD: "Nose",
-      correctOption: "optionB"
-  },
-
-  {
-      question: "How many hearts does an Octopus have ?",
-      optionA: "One",
-      optionB: "Two",
-      optionC: "Three  dasdas dasd as das dasd as da ",
-      optionD: "Four",
-      correctOption: "optionC"
-  },
-
-  {
-      question: "How many teeth does an adult human have ?",
-      optionA: "28",
-      optionB: "30 asd as a sdasd asda as da ",
-      optionC: "32",
-      optionD: "36",
-      correctOption: "optionC"
-  }
-
+    {
+        question: "Where is located 37 BA?",
+        optionA: "A. fusiform gyrus",
+        optionB: "B. Heschl gyrus",
+        optionC: "C. middle temporal gyrus",
+        optionD: "D. non of the above",
+        correctOption: "optionA"
+    }
 ]
 
 
 let shuffledQuestions = [] //empty array to hold shuffled selected questions out of all available questions
 
 function handleQuestions() { 
-  //function to shuffle and push 10 questions to shuffledQuestions array
-//app would be dealing with 10questions per session
-  while (shuffledQuestions.length <= 9) {
+  //function to shuffle and push 20 questions to shuffledQuestions array
+//app would be dealing with 20 questions per session
+  while (shuffledQuestions.length <= 19) {
       const random = questions[Math.floor(Math.random() * questions.length)]
       if (!shuffledQuestions.includes(random)) {
           shuffledQuestions.push(random)
@@ -317,12 +450,12 @@ function handleNextQuestion() {
   unCheckRadioButtons()
   //delays next question displaying for a second just for some effects so questions don't rush in on player
   setTimeout(() => {
-      if (indexNumber <= 9) {
-//displays next question as long as index number isn't greater than 9, remember index number starts from 0, so index 9 is question 10
+      if (indexNumber <= 19) {
+//displays next question as long as index number isn't greater than 19, remember index number starts from 0, so index 19 is question 20
           NextQuestion(indexNumber)
       }
       else {
-          handleEndGame()//ends game if index number greater than 9 meaning we're already at the 10th question
+          handleEndGame()//ends game if index number greater than 19 meaning we're already at the 10th question
       }
       resetOptionBackground()
   }, 1000);
@@ -350,19 +483,19 @@ function handleEndGame() {
   let remarkColor = null
 
   // condition check for player remark and remark color
-  if (playerScore <= 3) {
+  if (playerScore <= 6) {
       remark = "Bad Grades, Keep Practicing."
       remarkColor = "red"
   }
-  else if (playerScore >= 4 && playerScore < 7) {
+  else if (playerScore >= 7 && playerScore < 14) {
       remark = "Average Grades, You can do better."
       remarkColor = "orange"
   }
-  else if (playerScore >= 7) {
+  else if (playerScore >= 15) {
       remark = "Excellent, Keep the good work going."
       remarkColor = "green"
   }
-  const playerGrade = (playerScore / 10) * 100
+  const playerGrade = (playerScore / 20) * 100
 
   //data to display to score board
   document.getElementById('remarks').innerHTML = remark

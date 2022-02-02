@@ -190,3 +190,42 @@ Add:
 Flashcards: add column breakpoints to make it look better for phones and tablets
 
 Navbar: Added 2 drop up menus for flashcards and quizes, make bigger and more weight font and add some padding 
+
+----------------------------------------------------------------------------------------------------
+
+20.01.2022
+
+Brain Flashcards v0.25 Content update 
+
+Added:
+     Flashcards: all flashcards in lobes 
+     Folders for images in every flashcard lobes 
+
+Edited some sort of warnings and problems 
+
+----------------------------------------------------------------------------------------------------
+
+23.01.2022
+
+Brain Flaschcards v0.30 Quiz update 
+
+Added:
+     Quiz: all questions in js files. We changed number of questions in quiz to 5 in lobes and 20 in main. Sort of changes in CSS to make answers placeholders bigger
+
+Last piece of the puzzle are images on site and for now project is done 
+
+----------------------------------------------------------------------------------------------------
+
+02.02.2022
+
+Photos update
+
+Update of authors and lobes photos. We using the same size and changing from png to webp
+
+----------------------------------------------------------------------------------------------------
+
+03.02.2022
+
+The (hopefully) last update
+
+Now hosting bootstrap alongside the page. Fixed indicators of an active page. Cleanup the code. Made last finishing touches to the Creators, everyone added a description of themselves.

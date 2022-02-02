@@ -7,34 +7,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="app.css">
     <link rel="stylesheet" href="borders.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet" crossorigin="use-credentials">
+    <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
     <title>Brain Flashcards & Quiz - Creators</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg fixed-bottom navbar-dark bg-dark ">
+    <nav class="navbar navbar-expand-lg fixed-bottom navbar-dark bg-dark" id="navbar">
         <div class="container-fluid">
             <a class="navbar-brand" href="#header">Brain Flashcards & Quiz</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="help.html">Help</a>
+                        <a class="nav-link active" href="creators.html">Creators</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#header">Creators</a>
+                    <li class="nav-item dropup">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Flashcards!
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="Flashcards/MainFlashcards/MainFlashcards.html">Main
+                                    Flashcards</a></li>
+                            <li><a class="dropdown-item" href="Flashcards/Frontal/Frontal.html">Frontal Flashcards</a>
+                            </li>
+                            <li><a class="dropdown-item" href="Flashcards/Occipital/Occipital.html">Occipital
+                                    Flashcards</a></li>
+                            <li><a class="dropdown-item" href="Flashcards/Parietal/Parietal.html">Parietal
+                                    Flashcards</a></li>
+                            <li><a class="dropdown-item" href="Flashcards/Temporal/Temporal.html">Temporal
+                                    Flashcards</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropup">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkSecond" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Quizes!
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkSecond">
+                            <li><a class="dropdown-item" href="Quiz/MainQuiz/MainQuiz.html">Main Quiz</a></li>
+                            <li><a class="dropdown-item" href="Quiz/Frontal/FrontalQuiz.html">Frontal Quiz</a></li>
+                            <li><a class="dropdown-item" href="Quiz/Occipital/OccipitalQuiz.html">Occipital Quiz</a>
+                            </li>
+                            <li><a class="dropdown-item" href="Quiz/Parietal/ParietalQuiz.html">Parietal Quiz</a></li>
+                            <li><a class="dropdown-item" href="Quiz/Temporal/TemporalQuiz.html">Temporal Quiz</a></li>
+                        </ul>
                     </li>
                 </ul>
             </div>
@@ -52,38 +75,22 @@
                 src="img/kamil_hajduk.webp" alt="">
             <h3 class="text-center pt-3">Kamil Hajduk</h3>
             <h4 class="text-uppercase text-center">Project Manager</h4>
-            <p class="text-center mx-md-5 py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur eum, unde
-                dolorem, itaque
-                consequuntur voluptatibus earum, perspiciatis dolores nulla hic quibusdam architecto iusto
-                voluptatum. Saepe soluta animi nemo excepturi nostrum?
-                Maxime et porro eaque molestias aliquam quibusdam eveniet enim reprehenderit provident commodi
-                cumque quae cupiditate, velit laborum ipsam laboriosam tempora voluptates facilis ipsum nobis
-                iste
-                vero corporis aperiam. Dolores, optio.
-                Minima, autem architecto placeat laboriosam iusto aliquid rem adipisci aliquam. Soluta impedit
-                nemo,
-                possimus iusto repellat veniam autem cumque omnis laboriosam? Sequi illum voluptatem architecto
-                quia
-                culpa sit tempora error?</p>
+            <p class="text-center mx-md-5 py-5 fs-5">Huge soccer and wrestling fan but most of all amateur programmer
+                that
+                started his journey with coding at age 16 by creating his first games and programs using GDScript and
+                Python. Since 2020, a Cognitive Science student at Maria Curie-Skłodowska University.</p>
         </section>
         <section class="col-12 pt-5 border-top" id="creator2">
             <img class="img-fluid border border-2 border-primary rounded-3" id="creator-photo2"
                 src="img/karolina_partyka.webp" alt="">
             <h3 class="text-center pt-3">Karolina Partyka</h3>
             <h4 class="text-uppercase text-center">Data Researcher</h4>
-            <p class="text-center mx-md-5 py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur eum, unde
-                dolorem, itaque
-                consequuntur voluptatibus earum, perspiciatis dolores nulla hic quibusdam architecto iusto
-                voluptatum. Saepe soluta animi nemo excepturi nostrum?
-                Maxime et porro eaque molestias aliquam quibusdam eveniet enim reprehenderit provident commodi
-                cumque quae cupiditate, velit laborum ipsam laboriosam tempora voluptates facilis ipsum nobis
-                iste
-                vero corporis aperiam. Dolores, optio.
-                Minima, autem architecto placeat laboriosam iusto aliquid rem adipisci aliquam. Soluta impedit
-                nemo,
-                possimus iusto repellat veniam autem cumque omnis laboriosam? Sequi illum voluptatem architecto
-                quia
-                culpa sit tempora error?</p>
+            <p class="text-center mx-md-5 py-5 fs-5">The sports club is practically my second home, it is where I
+                dedicate
+                myself to training in Brazilian jiu jitsu, krav maga, and strength training. My cognitive science
+                interests are related to my activities, so I hope to explore the cognitive and neurological aspects of
+                physical activity while writing my undergraduate thesis. In addition, I try to pursue artistic
+                realization through analog photography from time to time.</p>
         </section>
         <section class="col-12 pt-5 border-top" id="creator3">
             <img class="img-fluid border border-2 border-primary rounded-3" id="creator-photo3"
@@ -91,27 +98,16 @@
             <h3 class="text-center pt-3">Jakub Skorłutowski</h3>
             <h4 class="text-uppercase text-center">Data Researcher<br>
                 Full-Stack Dev</h4>
-            <p class="text-center mx-md-5 py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur eum, unde
-                dolorem, itaque
-                consequuntur voluptatibus earum, perspiciatis dolores nulla hic quibusdam architecto iusto
-                voluptatum. Saepe soluta animi nemo excepturi nostrum?
-                Maxime et porro eaque molestias aliquam quibusdam eveniet enim reprehenderit provident commodi
-                cumque quae cupiditate, velit laborum ipsam laboriosam tempora voluptates facilis ipsum nobis
-                iste
-                vero corporis aperiam. Dolores, optio.
-                Minima, autem architecto placeat laboriosam iusto aliquid rem adipisci aliquam. Soluta impedit
-                nemo,
-                possimus iusto repellat veniam au
-                tem cumque omnis laboriosam? Sequi illum voluptatem architecto
-                quia
-                culpa sit tempora error?</p>
+            <p class="text-center mx-md-5 py-5 fs-5">I'm 21, creating music in free and not so free time. At the moment
+                I'm progressing in HTML + CSS + JS course, after this maybe Unity and C#? - will see. From other
+                activities swimming will be te thing I like the most. All the best for whoever are reading this.</p>
         </section>
         <section class="col-12 pt-5 border-top" id="creator4">
             <img class="img-fluid border border-2 border-primary rounded-3" id="creator-photo4"
                 src="img/konrad_maciaga.webp" alt="">
             <h3 class="text-center pt-3">Konrad Maciąga</h3>
             <h4 class="text-uppercase text-center">Main Full-Stack Dev</h4>
-            <p class="text-center mx-md-5 py-5">A lover of new technologies, a gadgeteer who loves smartphones and
+            <p class="text-center mx-md-5 py-5 fs-5">A lover of new technologies, a gadgeteer who loves smartphones and
                 computers, he has been
                 programming
                 for fun since the age of 15, and since October he started his serious adventure with learning to
@@ -121,11 +117,7 @@
                 creating a cognitive science club at Maria Curie-Skłodowska University. </p>
         </section>
     </main>
-    <script src="jquery-3.6.0.min.js"></script>
-    <script src="scripts.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
